@@ -8,6 +8,7 @@ AlignConsecutiveDeclarations: false
 AlignEscapedNewlines: Right
 AlignOperands:   true
 AlignTrailingComments: true
+AllowAllArgumentsOnNextLine: false
 AllowAllParametersOfDeclarationOnNextLine: false
 AllowShortBlocksOnASingleLine: false
 AllowShortCaseLabelsOnASingleLine: false
@@ -82,7 +83,7 @@ NamespaceIndentation: All
 ObjCBlockIndentWidth: 2
 ObjCSpaceAfterProperty: false
 ObjCSpaceBeforeProtocolList: true
-PenaltyBreakAssignment: 2
+PenaltyBreakAssignment: 2000
 PenaltyBreakBeforeFirstCallParameter: 19
 PenaltyBreakComment: 300
 PenaltyBreakFirstLessLess: 120
